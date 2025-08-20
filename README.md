@@ -7,3 +7,7 @@ To test these workflows, the sample project I will be building is an **ASL Class
 - Combined dataset of three publicly available ASL image datasets- 60k images across 28 classes (A-Z, Nothing, Space)
 - Images resized to 160X160
 - Classification model was based on MobileNetV2 architecture, leveraging transfer learning 
+
+
+https://github.com/user-attachments/assets/d93ad392-ce46-45d4-b8b5-08016ff99ef0
+
