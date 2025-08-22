@@ -12,6 +12,7 @@ Depending on your experience level and available time, you can choose from three
   - For the expert developer workflow, I have included a sample training script that can be run to generate a TFLite model.
 
 ## Rubik Pi Deployment
+To connect the Rubik Pi to Edge Impulse follow the steps found in `enable_edge_impulse.md`. 
 To leverage Qualcomm’s Hexagon Delegate on the Rubik Pi:
 - Use quantized TFLite models for optimal performance.
 - Upload models to Edge Impulse for testing and deployment.
