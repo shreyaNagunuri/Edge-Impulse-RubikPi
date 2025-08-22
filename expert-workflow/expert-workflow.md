@@ -21,18 +21,19 @@ python train_expert_model.py \
   --batch_size 128
 ```
 
-## 3. Exporting to TFLite
+## 3. Export to TFLite
 Run the `convert_keras_tflite.py` script to automatically save 
 - `model_float.tflite`
 - `model_int8.tflite`
 
-## 4. Upload model to Edge Impulse
-To upload your model, create a project and select the **Dashboard** tab. Next click to **Upload your model**. Just as a warning, switching will clear your existing impulse and all your configured blocks, but your data will not be removed. Follow the steps to submit your model (SavedModel, ONNX, TFLite, LGBM, XGBoost, or pickle model). 
+## 4. Upload Model to Edge Impulse
+To upload your model, create a project and select the **Dashboard** tab. Next, click to **Upload your model**. Just as a warning, switching will clear your existing impulse and all your configured blocks, but your data will not be removed. Follow the steps to submit your model (SavedModel, ONNX, TFLite, LGBM, XGBoost, or pickle model). 
 
 ## 5. Model testing / Deployment
-Go to the Model Testing tab and click **Classify all** in order to test the data with your new Impulse. To deploy, select the Deployment tab and either select to "Launch in browser" or run on the Rubik Pi using:
+Go to the **Model Testing** tab and click **Classify all** in order to test the data with your new Impulse. To deploy, select the Deployment tab and either select to "Launch in browser" or run on the Rubik Pi using:
 
 ``` bash
 edge-impulse-linux-runner
 ```
+
 
