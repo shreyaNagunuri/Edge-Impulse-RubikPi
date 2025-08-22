@@ -1,8 +1,8 @@
 # Average Workflow - Edge Impulse
 
-I define the intermediate developer workflow on Edge Impulse to be a developer who **modifies the default training code** to improve reproducibility and add some customization.  
+I define the average developer workflow on Edge Impulse to be a developer who **modifies the default training code** to improve reproducibility and add some customization.  
 
-Here are the steps for this intermediate workflow to accomplish the ASL Classification task.  
+Here are the steps for this average workflow to accomplish the ASL Classification task.  
 
 ## 1. Upload the training/testing images into Edge Impulse
 - Same as the beginner workflow: upload your ASL dataset into Edge Impulse (training + testing sets).  
@@ -29,7 +29,7 @@ This code includes:
 
 To find more ways to modify the code to improve accuracy and efficiency, check out this documentation by Edge Impulse: [Neural Networks documentation](https://docs.edgeimpulse.com/knowledge/concepts/machine-learning/neural-networks)
 
-What I have included in the code is simply the settings that I found work best for this dataset. 
+The settings included in the code are those that I found to work best for this dataset.
 
 ### Running the training
 1. Open **Transfer Learning → Switch to Keras (Expert) mode**.  
@@ -37,7 +37,7 @@ What I have included in the code is simply the settings that I found work best f
 3. Train the model with:  
 
 ## 5. Model Testing / Deployment
-Go to the Model Testing tab and click Classify all to run an evaluation on your test set. Check metrics such as accuracy, confusion matrix, and per-class F1 scores.
+Go to the **Model Testing** tab and click **Classify all** to run an evaluation on your test set. Check metrics such as accuracy, confusion matrix, and per-class F1 scores.
 
 For deployment: 
 Browser demo: Deployment → Launch in browser
