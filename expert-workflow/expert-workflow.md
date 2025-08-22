@@ -1,4 +1,4 @@
-# Expert Workflow Edge Impulse
+# Expert Workflow - Edge Impulse
 
 This README outlines an expert developer workflow for building and deploying an American Sign Language (ASL) classification model using TensorFlow and Edge Impulse.
 
@@ -35,3 +35,4 @@ Go to the Model Testing tab and click **Classify all** in order to test the data
 ``` bash
 edge-impulse-linux-runner
 ```
+
