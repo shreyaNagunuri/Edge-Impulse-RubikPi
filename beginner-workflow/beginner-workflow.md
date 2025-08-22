@@ -1,13 +1,13 @@
 # Beginner Workflow - Edge Impulse
 
-I define the beginner developer workflow on Edge Impulse to be a developer who makes no/minimal changes to default Edge Impulse settings. 
+The beginner developer workflow on Edge Impulse refers to a developer who makes minimal or no changes to the default settings.
 
 Here are the steps for this beginner workflow to accomplish the ASL Classification task. 
 
 ## 1. Upload the training/testing images into Edge Impulse. 
 
 ## 2. Create the Impulse
-Add in the image data and resize mode and modify the learning block however you chose. These are the settings I used:
+Add the image data and resize mode, and modify the learning block as desired. These are the settings I used:
 
 ![Impulse Settings](./Impulse-Settings.png "Impulse Settings")
 
@@ -15,7 +15,7 @@ Add in the image data and resize mode and modify the learning block however you 
 In the image section, save parameters and generate features. This should take less than 15 minutes. 
 
 ## 4. Transfer Learning
-Since this is the beginner workflow there are no code modifications to the neural network setting. Here are the final settings I used before I clicked **Save & Train**. 
+Since this is the beginner workflow, there are no code modifications to the neural network settings. Here are the final settings I used before I clicked **Save & Train**. 
 
 ![NN Settings](./Neural-Network-Settings.png "NN Settings")
 
@@ -26,3 +26,4 @@ Go to the Model Testing tab and click **Classify all** in order to test the data
 edge-impulse-linux-runner
 
 ```
+
