@@ -1,4 +1,4 @@
-# Beginner Workflow Edge Impulse
+# Beginner Workflow - Edge Impulse
 
 I define the beginner developer workflow on Edge Impulse to be a developer who makes no/minimal changes to default Edge Impulse settings. 
 
@@ -14,7 +14,7 @@ Add in the image data and resize mode and modify the learning block however you 
 ## 3. Image
 In the image section, save parameters and generate features. This should take less than 15 minutes. 
 
-## 4. Tranfer Learning
+## 4. Transfer Learning
 Since this is the beginner workflow there are no code modifications to the neural network setting. Here are the final settings I used before I clicked **Save & Train**. 
 
 ![NN Settings](./Neural-Network-Settings.png "NN Settings")
@@ -24,4 +24,5 @@ Go to the Model Testing tab and click **Classify all** in order to test the data
 
 ``` bash
 edge-impulse-linux-runner
+
 ```
